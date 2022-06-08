@@ -1,20 +1,21 @@
 #imgheader{
-    position: absolute;
     width: 100%;
+    position: absolute;
 }
 
 .titulo-principal{
     font-size: 50px;
     font-style: italic;
     display: inline-block;
-    position: relative;
+    position: absolute;
     padding-left: 1%;
+    vertical-align: top;
     color: antiquewhite;
 }
 
 #logo{
-    position: relative;
-    padding-left: 82%;
-    vertical-align: text-top;
+    position: absolute;
+    padding-left: 81%;
+    padding-top: 0.2%;
 }
 
