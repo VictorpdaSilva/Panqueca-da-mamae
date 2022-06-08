@@ -1,0 +1,20 @@
+#imgheader{
+    position: absolute;
+    width: 100%;
+}
+
+.titulo-principal{
+    font-size: 50px;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    padding-left: 1%;
+    color: antiquewhite;
+}
+
+#logo{
+    position: relative;
+    padding-left: 82%;
+    vertical-align: text-top;
+}
+
