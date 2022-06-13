@@ -1,21 +1,44 @@
-#imgheader{
-    width: 100%;
-    position: absolute;
+.titulo-principal{
+    background-color: aquamarine;
 }
 
-.titulo-principal{
-    font-size: 50px;
-    font-style: italic;
-    display: inline-block;
+.titulo{
     position: absolute;
-    padding-left: 1%;
-    vertical-align: top;
-    color: antiquewhite;
+    left: 1%;
+    vertical-align: text-top;
+    display: inline-block;;
+    color: peachpuff;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#banner{
+    width: 100%;
 }
 
 #logo{
     position: absolute;
-    padding-left: 81%;
-    padding-top: 0.2%;
+    top: 2%;
+    left: 80.2%;
 }
+
+.apresentação{
+    background-color: blueviolet;
+}
+
+.titulo-apresentação{
+    text-align: center;
+}
+
+#mamãecozinheira{
+    padding-left: 0.5%;
+
+}
+
+.P1{
+    font-size: 25px;
+}
+
+
+
 
