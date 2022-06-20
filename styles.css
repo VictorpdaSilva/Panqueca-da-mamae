@@ -1,5 +1,5 @@
 body{
-    background-color: seashell
+    background-color: #ffd39b
 }
 
 .titulo-principal{
@@ -33,7 +33,7 @@ body{
 
 .paragrafo-apresentação{
     position: absolute;
-    left: 35%;
+    left: 32.5%;
     padding-top: 5%;
     display: inline-block;
     font-size: 27px;
@@ -50,6 +50,28 @@ body{
     padding-left: 5%;
     display: inline-block;
     font-size: 27px;
+}
+
+.paragrafo-atualmente{
+    position: absolute;
+    left: 32.5%;
+    padding-top: 32%;
+    display: inline-block;
+    font-size: 27px;
+}
+
+#convite{
+    padding-left: 65.7%;
+}
+
+.paragrafo-convite{
+    position: absolute;
+    right: 35%;
+    padding-top: 22%;
+    padding-left: 5%;
+    display: inline-block;
+    font-size: 33px;
+    font-style: italic;
 }
 
 
