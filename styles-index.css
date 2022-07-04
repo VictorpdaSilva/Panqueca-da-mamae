@@ -36,18 +36,18 @@ nav a:active{
     color: khaki;
 }
 
-footer{
-    background-image: url(img-footer.jpg);
+.copyright{
     text-align: center;
-    font-size: 15px;
-    font-style: italic;
     font-weight: bold;
 }
 
-.copyright{
-    position: relative;
-    bottom: 20px;
+footer{
+    height: 120px;
+    background-image: url(img-footer.jpg);
+    text-align: center;
 }
+
+
 
 
 

@@ -1,0 +1,146 @@
+header{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 15px; left: 20px;
+    font-size: 45px;
+    color: lightsalmon;
+    font-style: italic;
+}
+
+nav{
+    position: absolute;
+    top: 30px; right: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: firebrick;
+}
+
+nav a:hover{
+    color: burlywood;
+}
+
+nav a:active{
+    color: khaki;
+}
+
+.apresentação{
+    position: absolute;
+    top: 12%;
+    background-color: mistyrose;
+    width: 100%;
+}
+
+#img-apresentação{
+    position:relative;
+    top: 17%; left: 32%;
+    border-radius: 3%;
+	border:4px solid black;
+	box-sizing: border-box
+}
+
+.p-apresentação{
+    position: absolute;
+    top: 30%; left: 54%;
+    padding-right: 10%;
+    font-size: 21px;
+}
+
+.missão{
+    position: absolute;
+    top: 37.8%;
+    background-color: cornsilk;
+    width: 100%;
+}
+
+#img-missão{
+    position:relative;
+    top: 30%; left: 50%;
+    border-radius: 3%;
+	border:4px solid black;
+	box-sizing: border-box
+}
+
+.p-missão{
+    position: absolute;
+    top: 35%; left: 10%;
+    padding-right: 54%;
+    font-size: 21px;;
+}
+
+.atualmente{
+    position: absolute;
+    top: 65.8%;
+    background-color: mistyrose;
+    width: 100%;
+}
+
+#img-atualmente{
+    position:relative;
+    top: 30%; left: 32%;
+    border-radius: 3%;
+	border:4px solid black;
+	box-sizing: border-box
+}
+
+.p-atualmente{
+    position: absolute;
+    top: 30%; left: 54%;
+    padding-right: 10%;
+    font-size: 21px;
+}
+
+.convite{
+    position: absolute;
+    top: 84%;
+    background-color: cornsilk;
+    width: 100%;
+}
+
+#img-convite{
+    position:relative;
+    top: 30%; left: 50%;
+    border-radius: 3%;
+	border:4px solid black;
+	box-sizing: border-box
+}
+
+.p-convite{
+    position: absolute;
+    top: 35%; left: 10%;
+    padding-right: 54%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.copyright{
+    position: absolute;
+    top: 112.8%; left: 43.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#img-footer{
+    position: absolute;
+    top: 114.5%;
+    width: 100%;
+}
+
+#logo-footer{
+    position: absolute;
+    top: 115.5%; left: 47%;
+}
+
+
