@@ -1,0 +1,238 @@
+h1{
+    position: absolute;
+    top: 15px; left: 20px;
+    font-size: 45px;
+    color: lightsalmon;
+    font-style: italic;
+}
+
+nav{
+    position: absolute;
+    top: 30px; right: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: firebrick;
+}
+
+nav a:hover{
+    color: burlywood;
+}
+
+nav a:active{
+    color: khaki;
+}
+
+.carne-chocolate{
+    position: absolute;
+    top: 8%;
+    background-color: mistyrose;
+    width: 100%;
+}
+
+.h-carne{
+    position: absolute;
+    top: 2%; left: 11%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-carne{
+    position: absolute;
+    top: 24%; left: 5%;
+    padding-right: 70%;
+    font-size: 18px;
+}
+
+.preço-carne{
+    position: absolute;
+    top: 80%; left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5%;
+	border: 2px solid black;
+}
+
+#carne{
+    position: relative;
+    left: 31%;
+    border-radius: 3%;
+	border: 3px solid black;
+}
+
+#chocolate{
+    position: relative;
+    left: 35%;
+    border-radius: 3%;
+	border: 3px solid black;
+}
+
+.h-chocolate{
+    position: absolute;
+    top: 2%; left: 74%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-chocolate{
+    position: absolute;
+    top: 24%; left: 68.5%;
+    padding-right: 4.8%;
+    font-size: 18px;
+}
+
+.preço-chocolate{
+    position: absolute;
+    top: 80%; left: 78%;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5%;
+	border: 2px solid black;
+}
+
+.presuntoqueijo-docedeleite{
+    position: absolute;
+    top: 28.1%;
+    background-color: cornsilk;
+    width: 100%;
+}
+
+.h-presuntoqueijo{
+    position: absolute;
+    top: 2%; left: 6.3%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-presuntoqueijo{
+    position: absolute;
+    top: 24%; left: 5%;
+    padding-right: 70%;
+    font-size: 18px;
+}
+
+.preço-presuntoqueijo{
+    position: absolute;
+    top: 80%; left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5%;
+	border: 2px solid black;
+}
+
+#presuntoqueijo{
+    position: relative;
+    left: 31%;
+    border-radius: 3%;
+	border: 3px solid black;
+}
+
+#docedeleite{
+    position: relative;
+    left: 35%;
+    border-radius: 3%;
+	border: 3px solid black;
+}
+
+.h-docedeleite{
+    position: absolute;
+    top: 2%; left: 72.5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-docedeleite{
+    position: absolute;
+    top: 24%; left: 68.5%;
+    padding-right: 4.8%;
+    font-size: 18px;
+}
+
+.preço-docedeleite{
+    position: absolute;
+    top: 80%; left: 78%;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5%;
+	border: 2px solid black;
+}
+
+.frango-banana{
+    position: absolute;
+    top: 48.1%;
+    background-color: mistyrose;
+    width: 100%;
+}
+
+.h-frango{
+    position: absolute;
+    top: 2%; left: 9.7%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-frango{
+    position: absolute;
+    top: 24%; left: 5%;
+    padding-right: 70%;
+    font-size: 18px;
+}
+
+.preço-frango{
+    position: absolute;
+    top: 80%; left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5%;
+	border: 2px solid black;
+}
+
+#frango{
+    position: relative;
+    left: 31%;
+    border-radius: 3%;
+	border: 3px solid black;
+}
+
+#banana{
+    position: relative;
+    left: 35%;
+    border-radius: 3%;
+	border: 3px solid black;
+}
+
+.h-banana{
+    position: absolute;
+    top: 2%; left: 74%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-banana{
+    position: absolute;
+    top: 23%; left: 68.5%;
+    padding-right: 4.8%;
+    font-size: 18px;
+}
+
+.preço-banana{
+    position: absolute;
+    top: 80%; left: 78%;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5%;
+	border: 2px solid black;
+}
+
+
+
+
