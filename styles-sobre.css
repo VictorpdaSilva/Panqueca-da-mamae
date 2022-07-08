@@ -34,7 +34,7 @@ nav a:active{
 
 .apresentação{
     position: absolute;
-    top: 12%;
+    top: 8%;
     background-color: mistyrose;
     width: 100%;
 }
@@ -56,7 +56,7 @@ nav a:active{
 
 .missão{
     position: absolute;
-    top: 37.8%;
+    top: 34%;
     background-color: cornsilk;
     width: 100%;
 }
@@ -78,7 +78,7 @@ nav a:active{
 
 .atualmente{
     position: absolute;
-    top: 65.8%;
+    top: 61.9%;
     background-color: mistyrose;
     width: 100%;
 }
@@ -100,7 +100,7 @@ nav a:active{
 
 .convite{
     position: absolute;
-    top: 84%;
+    top: 80%;
     background-color: cornsilk;
     width: 100%;
 }
@@ -123,20 +123,20 @@ nav a:active{
 
 .copyright{
     position: absolute;
-    top: 112.8%; left: 43.5%;
+    top: 109%; left: 43.5%;
     text-align: center;
     font-weight: bold;
 }
 
 #img-footer{
     position: absolute;
-    top: 114.5%;
+    top: 111%;
     width: 100%;
 }
 
 #logo-footer{
     position: absolute;
-    top: 115.5%; left: 47%;
+    top: 111%; left: 47%;
 }
 
 

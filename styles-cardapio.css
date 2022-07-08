@@ -101,7 +101,7 @@ nav a:active{
 
 .presuntoqueijo-docedeleite{
     position: absolute;
-    top: 28.1%;
+    top: 28%;
     background-color: cornsilk;
     width: 100%;
 }
@@ -168,7 +168,7 @@ nav a:active{
 
 .frango-banana{
     position: absolute;
-    top: 48.1%;
+    top: 47.9%;
     background-color: mistyrose;
     width: 100%;
 }
@@ -232,6 +232,56 @@ nav a:active{
     border-radius: 5%;
 	border: 2px solid black;
 }
+
+.delivery{
+    position: absolute;
+    top: 71%;
+    width: 100%;
+}
+
+.p-delivery{
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 1%;
+}
+
+.contatos li{
+    position: relative;
+    left: 37%;
+    padding: 5px 5px;
+    border-radius: 15%;
+	border: 2px solid black;
+    display: inline-block
+}
+
+.contatos li:hover{
+	border-color: burlywood;
+}
+
+.contatos li:active{
+	border-color: cornflowerblue;
+}
+
+.copyright{
+    position: absolute;
+    top: 90%; left: 43.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#img-footer{
+    position: absolute;
+    top: 92%;
+    width: 100%;
+}
+
+#logo-footer{
+    position: absolute;
+    top: 92%; left: 47%;
+}
+
+
 
 
 
