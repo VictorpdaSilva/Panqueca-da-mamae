@@ -1,10 +1,10 @@
-#banner{
-    width: 100%;
+header{
+    padding-bottom: 15px;
 }
 
 h1{
-    position: absolute;
-    top: 58px; left: 20px;
+    position: relative;
+    left: 15px; 
     font-size: 45px;
     color: lightsalmon;
     font-style: italic;
@@ -12,7 +12,7 @@ h1{
 
 nav{
     position: absolute;
-    top: 75px; right: 20px;
+    top: 15px; right: 0px;
 }
 
 nav li{
@@ -24,25 +24,28 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 21px;
     color: firebrick;
 }
 
 nav a:hover{
-    color: aliceblue;
+    color: burlywood;
 }
 
 nav a:active{
     color: khaki;
 }
 
-.copyright{
+main{
     text-align: center;
     font-weight: bold;
 }
 
+#banner{
+    width: 99.8%;
+}
+
 footer{
-    height: 120px;
     background-image: url(img-footer.jpg);
     text-align: center;
 }

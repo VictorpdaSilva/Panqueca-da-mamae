@@ -1,6 +1,10 @@
+header{
+    padding-bottom: 15px;
+}
+
 h1{
-    position: absolute;
-    top: 15px; left: 20px;
+    position: relative;
+    left: 15px; 
     font-size: 45px;
     color: lightsalmon;
     font-style: italic;
@@ -8,7 +12,7 @@ h1{
 
 nav{
     position: absolute;
-    top: 30px; right: 20px;
+    top: 15px; right: 0px;
 }
 
 nav li{
@@ -20,7 +24,7 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 21px;
     color: firebrick;
 }
 
@@ -32,111 +36,137 @@ nav a:active{
     color: khaki;
 }
 
-.apresentação{
-    position: absolute;
-    top: 8%;
+.container-apresentação{
+    position: relative;
+    padding-bottom: 18.5%;
     background-color: mistyrose;
-    width: 100%;
+}
+
+.container-img-apresentação{
+    width: 50%;
+    position: absolute;
+    top: 0px; left: 0px;
+    text-align: center;
 }
 
 #img-apresentação{
-    position:relative;
-    top: 17%; left: 32%;
     border-radius: 3%;
-	border:4px solid black;
-	box-sizing: border-box
+	border: 3px solid black;
+}
+
+.container-p-apresentação{
+    position: absolute;
+    top: 0px; right: 0px;
+    width: 50%;
 }
 
 .p-apresentação{
-    position: absolute;
-    top: 30%; left: 54%;
-    padding-right: 10%;
+    padding-right: 40%;
+    padding-top: 7%;
     font-size: 21px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
-.missão{
-    position: absolute;
-    top: 34%;
+.container-missão{
+    position: relative;
+    padding-bottom: 20%;
     background-color: cornsilk;
-    width: 100%;
+}
+
+.container-img-missão{
+    width: 50%;
+    position: absolute;
+    top: 0px; right: 0px;
+    text-align: center;
 }
 
 #img-missão{
-    position:relative;
-    top: 30%; left: 50%;
     border-radius: 3%;
-	border:4px solid black;
-	box-sizing: border-box
+	border: 3px solid black;
+}
+
+.container-p-missão{
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 50%;
 }
 
 .p-missão{
-    position: absolute;
-    top: 35%; left: 10%;
-    padding-right: 54%;
-    font-size: 21px;;
+    padding-left: 40%;
+    padding-top: 7%;
+    font-size: 21px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
-.atualmente{
-    position: absolute;
-    top: 61.9%;
+.container-atualmente{
+    position: relative;
+    padding-bottom: 13%;
     background-color: mistyrose;
-    width: 100%;
+}
+
+.container-img-atualmente{
+    width: 50%;
+    position: absolute;
+    top: 0px; left: 0px;
+    text-align: center;
 }
 
 #img-atualmente{
-    position:relative;
-    top: 30%; left: 32%;
     border-radius: 3%;
-	border:4px solid black;
-	box-sizing: border-box
+	border: 3px solid black;
+}
+
+.container-p-atualmente{
+    position: absolute;
+    top: 0px; right: 0px;
+    width: 50%;
 }
 
 .p-atualmente{
-    position: absolute;
-    top: 30%; left: 54%;
-    padding-right: 10%;
+    padding-right: 40%;
+    padding-top: 5%;
     font-size: 21px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
-.convite{
-    position: absolute;
-    top: 80%;
+.container-convite{
+    position: relative;
+    padding-bottom: 20.5%;
     background-color: cornsilk;
-    width: 100%;
+}
+
+.container-img-convite{
+    width: 50%;
+    position: absolute;
+    top: 0px; right: 0px;
+    text-align: center;
 }
 
 #img-convite{
-    position:relative;
-    top: 30%; left: 50%;
     border-radius: 3%;
-	border:4px solid black;
-	box-sizing: border-box
+	border: 3px solid black;
+}
+
+.container-p-convite{
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 50%;
 }
 
 .p-convite{
-    position: absolute;
-    top: 35%; left: 10%;
-    padding-right: 54%;
-    font-size: 22px;
+    padding-left: 40%;
+    padding-top: 7%;
+    font-size: 25px;
     font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
 }
 
-.copyright{
-    position: absolute;
-    top: 109%; left: 43.5%;
+.container-copyright{
     text-align: center;
     font-weight: bold;
 }
 
-#img-footer{
-    position: absolute;
-    top: 111%;
-    width: 100%;
+footer{
+    background-image: url(img-footer.jpg);
+    text-align: center;
 }
-
-#logo-footer{
-    position: absolute;
-    top: 111%; left: 47%;
-}
-
-

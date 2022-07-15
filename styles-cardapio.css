@@ -38,7 +38,6 @@ nav a:active{
 
 .carne-chocolate{
     background-color: mistyrose;
-    border: 1px solid black;
     padding-bottom: 15.5%;
     position: relative;
 }
@@ -68,7 +67,7 @@ nav a:active{
 .p-carne{
     text-align: left;
     padding-left: 1%;
-    padding-right: 45%;
+    padding-right: 45.5%;
     padding-bottom: 2%;
     font-size: 17px;
     position: relative;
@@ -109,7 +108,7 @@ nav a:active{
 .p-chocolate{
     text-align: right;
     padding-right: 1%;
-    padding-left: 45%;
+    padding-left: 45.5%;
     padding-bottom: 2%;
     font-size: 17px;
     position: relative;
@@ -126,7 +125,6 @@ nav a:active{
 
 .presuntoqueijo-docedeleite{
     background-color: cornsilk;
-    border: 1px solid black;
     padding-bottom: 15.5%;
     position: relative;
 }
@@ -156,7 +154,7 @@ nav a:active{
 .p-presuntoqueijo{
     text-align: left;
     padding-left: 1%;
-    padding-right: 45%;
+    padding-right: 45.5%;
     padding-bottom: 2%;
     font-size: 17px;
     position: relative;
@@ -197,7 +195,7 @@ nav a:active{
 .p-docedeleite{
     text-align: right;
     padding-right: 1%;
-    padding-left: 45%;
+    padding-left: 45.5%;
     padding-bottom: 2%;
     font-size: 17px;
     position: relative;
@@ -214,7 +212,6 @@ nav a:active{
 
 .frango-banana{
     background-color: mistyrose;
-    border: 1px solid black;
     padding-bottom: 16.6%;
     position: relative;
 }
@@ -244,7 +241,7 @@ nav a:active{
 .p-frango{
     text-align: left;
     padding-left: 1%;
-    padding-right: 45%;
+    padding-right: 45.5%;
     padding-bottom: 2%;
     font-size: 17px;
     position: relative;
@@ -285,7 +282,7 @@ nav a:active{
 .p-banana{
     text-align: right;
     padding-right: 1%;
-    padding-left: 45%;
+    padding-left: 45.5%;
     padding-bottom: 2%;
     font-size: 17px;
     position: relative;
