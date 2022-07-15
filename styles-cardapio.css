@@ -1,6 +1,10 @@
+header{
+    padding-bottom: 15px;
+}
+
 h1{
-    position: absolute;
-    top: 15px; left: 20px;
+    position: relative;
+    left: 15px; 
     font-size: 45px;
     color: lightsalmon;
     font-style: italic;
@@ -8,7 +12,7 @@ h1{
 
 nav{
     position: absolute;
-    top: 30px; right: 20px;
+    top: 15px; right: 0px;
 }
 
 nav li{
@@ -20,7 +24,7 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 21px;
     color: firebrick;
 }
 
@@ -33,226 +37,286 @@ nav a:active{
 }
 
 .carne-chocolate{
-    position: absolute;
-    top: 8%;
     background-color: mistyrose;
-    width: 100%;
-}
-
-.h-carne{
-    position: absolute;
-    top: 2%; left: 11%;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.p-carne{
-    position: absolute;
-    top: 24%; left: 5%;
-    padding-right: 70%;
-    font-size: 18px;
-}
-
-.preço-carne{
-    position: absolute;
-    top: 80%; left: 15%;
-    font-size: 30px;
-    font-weight: bold;
-    border-radius: 5%;
-	border: 2px solid black;
-}
-
-#carne{
+    border: 1px solid black;
+    padding-bottom: 15.5%;
     position: relative;
-    left: 31%;
+}
+
+.carne{
+    width: 50%;
+    position: absolute;
+}
+
+#img-carne{
+    position: absolute;
+    right: 0px;
     border-radius: 3%;
 	border: 3px solid black;
 }
 
-#chocolate{
+.h-carne{
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    left: 35%;
+}
+
+.p-carne{
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 45%;
+    padding-bottom: 2%;
+    font-size: 17px;
+    position: relative;
+}
+
+.preço-carne{
+    padding-left: 1%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.chocolate{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+#img-chocolate{
+    position: absolute;
+    left: 0px;
     border-radius: 3%;
 	border: 3px solid black;
 }
 
 .h-chocolate{
-    position: absolute;
-    top: 2%; left: 74%;
-    font-size: 30px;
+    text-align: right;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    font-size: 28px;
     font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 .p-chocolate{
-    position: absolute;
-    top: 24%; left: 68.5%;
-    padding-right: 4.8%;
-    font-size: 18px;
+    text-align: right;
+    padding-right: 1%;
+    padding-left: 45%;
+    padding-bottom: 2%;
+    font-size: 17px;
+    position: relative;
 }
 
 .preço-chocolate{
-    position: absolute;
-    top: 80%; left: 78%;
+    text-align: right;
+    padding-right: 1%;
     font-size: 30px;
     font-weight: bold;
-    border-radius: 5%;
-	border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 .presuntoqueijo-docedeleite{
-    position: absolute;
-    top: 28%;
     background-color: cornsilk;
-    width: 100%;
-}
-
-.h-presuntoqueijo{
-    position: absolute;
-    top: 2%; left: 6.3%;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.p-presuntoqueijo{
-    position: absolute;
-    top: 24%; left: 5%;
-    padding-right: 70%;
-    font-size: 18px;
-}
-
-.preço-presuntoqueijo{
-    position: absolute;
-    top: 80%; left: 15%;
-    font-size: 30px;
-    font-weight: bold;
-    border-radius: 5%;
-	border: 2px solid black;
-}
-
-#presuntoqueijo{
+    border: 1px solid black;
+    padding-bottom: 15.5%;
     position: relative;
-    left: 31%;
+}
+
+.presuntoqueijo{
+    width: 50%;
+    position: absolute;
+}
+
+#img-presuntoqueijo{
+    position: absolute;
+    right: 0px;
     border-radius: 3%;
 	border: 3px solid black;
 }
 
-#docedeleite{
+.h-presuntoqueijo{
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    left: 35%;
+}
+
+.p-presuntoqueijo{
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 45%;
+    padding-bottom: 2%;
+    font-size: 17px;
+    position: relative;
+}
+
+.preço-presuntoqueijo{
+    padding-left: 1%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.docedeleite{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+#img-docedeleite{
+    position: absolute;
+    left: 0px;
     border-radius: 3%;
 	border: 3px solid black;
 }
 
 .h-docedeleite{
-    position: absolute;
-    top: 2%; left: 72.5%;
-    font-size: 30px;
+    text-align: right;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    font-size: 28px;
     font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 .p-docedeleite{
-    position: absolute;
-    top: 24%; left: 68.5%;
-    padding-right: 4.8%;
-    font-size: 18px;
+    text-align: right;
+    padding-right: 1%;
+    padding-left: 45%;
+    padding-bottom: 2%;
+    font-size: 17px;
+    position: relative;
 }
 
 .preço-docedeleite{
-    position: absolute;
-    top: 80%; left: 78%;
+    padding-right: 1%;
+    text-align: right;
     font-size: 30px;
     font-weight: bold;
-    border-radius: 5%;
-	border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 .frango-banana{
-    position: absolute;
-    top: 47.9%;
     background-color: mistyrose;
-    width: 100%;
-}
-
-.h-frango{
-    position: absolute;
-    top: 2%; left: 9.7%;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.p-frango{
-    position: absolute;
-    top: 24%; left: 5%;
-    padding-right: 70%;
-    font-size: 18px;
-}
-
-.preço-frango{
-    position: absolute;
-    top: 80%; left: 15%;
-    font-size: 30px;
-    font-weight: bold;
-    border-radius: 5%;
-	border: 2px solid black;
-}
-
-#frango{
+    border: 1px solid black;
+    padding-bottom: 16.6%;
     position: relative;
-    left: 31%;
+}
+
+.frango{
+    width: 50%;
+    position: absolute;
+}
+
+#img-frango{
+    position: absolute;
+    right: 0px;
     border-radius: 3%;
 	border: 3px solid black;
 }
 
-#banana{
+.h-frango{
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    left: 35%;
+}
+
+.p-frango{
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 45%;
+    padding-bottom: 2%;
+    font-size: 17px;
+    position: relative;
+}
+
+.preço-frango{
+    padding-left: 1%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.banana{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+#img-banana{
+    position: absolute;
+    left: 0px;
     border-radius: 3%;
 	border: 3px solid black;
 }
 
 .h-banana{
-    position: absolute;
-    top: 2%; left: 74%;
-    font-size: 30px;
+    text-align: right;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    font-size: 28px;
     font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 .p-banana{
-    position: absolute;
-    top: 23%; left: 68.5%;
-    padding-right: 4.8%;
-    font-size: 18px;
+    text-align: right;
+    padding-right: 1%;
+    padding-left: 45%;
+    padding-bottom: 2%;
+    font-size: 17px;
+    position: relative;
 }
 
 .preço-banana{
-    position: absolute;
-    top: 80%; left: 78%;
+    text-align: right;
+    padding-right: 1%;
     font-size: 30px;
     font-weight: bold;
-    border-radius: 5%;
-	border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
-.delivery{
-    position: absolute;
-    top: 71%;
-    width: 100%;
-}
-
-.p-delivery{
+.h-delivery{
     text-align: center;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 1%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+
+.contatos{
+    text-align: center;
 }
 
 .contatos li{
-    position: relative;
-    left: 37%;
-    padding: 5px 5px;
-    border-radius: 15%;
+    display: inline;
+    padding: 4px 4px;
+    border-radius: 5%;
 	border: 2px solid black;
-    display: inline-block
 }
 
 .contatos li:hover{
@@ -264,22 +328,16 @@ nav a:active{
 }
 
 .copyright{
-    position: absolute;
-    top: 90%; left: 43.5%;
     text-align: center;
+    padding-top: 1%;
     font-weight: bold;
 }
 
-#img-footer{
-    position: absolute;
-    top: 92%;
-    width: 100%;
+footer{
+    background-image: url(img-footer.jpg);
+    text-align: center;
 }
 
-#logo-footer{
-    position: absolute;
-    top: 92%; left: 47%;
-}
 
 
 
